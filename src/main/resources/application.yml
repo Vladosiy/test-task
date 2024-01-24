@@ -1,0 +1,16 @@
+server:
+  port: 80
+  context-path: /spring-boot-quick-start
+logging:
+  level:
+    root: INFO
+    org:
+      springframework:
+        web: DEBUG
+        security: DEBUG
+spring:
+  jpa:
+    show-sql: true
+management:
+  security:
+    roles: ADMIN
